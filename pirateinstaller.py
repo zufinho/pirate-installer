@@ -119,3 +119,10 @@ def install(id):
         else:
             print(Colorate.Color(Colors.red,"Anonfiles not supported",True))
             system("pause")
+
+print(Colorate.Horizontal(Colors.blue_to_cyan,banner,1))
+print()
+print()
+print(Colorate.Horizontal(Colors.blue_to_cyan,"Game ID",1))
+idinput=int(input(Colorate.Horizontal(Colors.cyan_to_blue,">",1)))
+install(id=idinput)
