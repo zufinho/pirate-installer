@@ -1,0 +1,6 @@
+~~~~~~This is a list of all games avaiable in pirate installer by id~~~~~~
+if you need help to find a game,click CTRL+F and type game name
+------------------------------------------------------------------------------
+
+0-Terraria v1.4.4.9.v4
+1-Need For Speed - Most Wanted
