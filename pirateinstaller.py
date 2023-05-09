@@ -58,17 +58,17 @@ def install(id):
         else:
             mega=False
             print(Colorate.Horizontal(Colors.purple_to_blue,f"Mega: ❌",1))
-        if not gameinfo['anonfileslink'] == "":
-            anon=True
-            print(Colorate.Horizontal(Colors.purple_to_blue,f"Anonfiles: ✅",1))
+        if not gameinfo['googlelink'] == "":
+            google=True
+            print(Colorate.Horizontal(Colors.purple_to_blue,f"Google: ✅",1))
         else:
-            anon=False
-            print(Colorate.Horizontal(Colors.purple_to_blue,f"Anonfiles: ❌",1))
+            google=False
+            print(Colorate.Horizontal(Colors.purple_to_blue,f"Google: ❌",1))
 
     print()
     print()
-    print(Colorate.Horizontal(Colors.purple_to_blue,"[1] Install by mediafire                     [2] Install by Mega                   [3] Install by AnonFiles",1))
-    print(Colorate.Horizontal(Colors.purple_to_blue,"[4] Open Mediafire game download page        [5] Open Mega game download page      [6] Open Anonfiles game download page",1))
+    print(Colorate.Horizontal(Colors.purple_to_blue,"[1] Install by mediafire                     [2] Install by Mega                   [3] Install by Google",1))
+    print(Colorate.Horizontal(Colors.purple_to_blue,"[4] Open Mediafire game download page        [5] Open Mega game download page      [6] Open Google game download page",1))
     installmode=input(Colorate.Horizontal(Colors.purple_to_blue,">",1))
     if installmode=="1":
         if mediafire==True:
@@ -88,12 +88,12 @@ def install(id):
             print(Colorate.Color(Colors.red,"Mega not supported",True))
             system("pause")
     elif installmode=="3":
-        if anon==True:
-            webbrowser.open_new_tab(url=gameinfo['anonfilesdirectdownload'])
+        if google==True:
+            webbrowser.open_new_tab(url=gameinfo['googledirectdownload'])
             print(Colorate.Horizontal(Colors.purple_to_blue,"Download started at your browser",1))
             sleep(5)
         else:
-            print(Colorate.Color(Colors.red,"Anonfiles not supported",True))
+            print(Colorate.Color(Colors.red,"Google not supported",True))
             system("pause")
     elif installmode=="4":
         if mediafire==True:
@@ -112,12 +112,12 @@ def install(id):
             print(Colorate.Color(Colors.red,"Mega not supported",True))
             system("pause")
     elif installmode=="6":
-        if anon==True:
-            webbrowser.open_new_tab(url=gameinfo['anonfileslink'])
+        if google==True:
+            webbrowser.open_new_tab(url=gameinfo['googlelink'])
             print(Colorate.Horizontal(Colors.purple_to_blue,"Opened in your browser",1))
             sleep(5)
         else:
-            print(Colorate.Color(Colors.red,"Anonfiles not supported",True))
+            print(Colorate.Color(Colors.red,"Google not supported",True))
             system("pause")
 
 print(Colorate.Horizontal(Colors.purple_to_blue,banner,1))
