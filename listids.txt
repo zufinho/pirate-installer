@@ -7,3 +7,6 @@ if you need help to find a game,click CTRL+F and type game name
 2-Grand Theft Auto III
 3-Grand Theft Auto San Andreas
 4-Subnautica v67383
+5-Five Nights At Freedy 3
+6-Abzu
+7-The Forest
