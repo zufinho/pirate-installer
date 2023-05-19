@@ -102,5 +102,31 @@
         "googlelink": "",
         "googledirectdownload": "",
         "browserinstallermode": "True"
+    },
+    {
+        "id": 8,
+        "name": "Five Nights At Freddy 1",
+        "version": "",
+        "filesize": "224 MB",
+        "mediafiredownloadlink": "https://download2390.mediafire.com/fq2ls12yo2xgEEZiuqjP8TYo2x4HbW7M3lZqBIGxlK8wTqP_mQ8eEkvot2xgAiXTZYGqm4nJ8YwkZStJv8BjKrPATD2K9mWVweQm1F2vjxXB2plMxtUR4hm3835ERTLATdfQXeg6Hazt5N_fZeeOeCqa9TEgnyr49VEGREEGNfG2xg/rrh6qf24acsylkc/Five.Nights.at.Freddys.v1.132.zip",
+        "mediafirelink": "https://www.mediafire.com/file/rrh6qf24acsylkc/Five.Nights.at.Freddys.v1.132.zip/file",
+        "megalink": "",
+        "megadirectdownload": "",
+        "googlelink": "",
+        "googledirectdownload": "",
+        "browserinstallermode": "True"
+    },
+    {
+        "id": 9,
+        "name": "Five Nights At Freddy 2",
+        "version": "",
+        "filesize": "210 MB",
+        "mediafiredownloadlink": "https://download1582.mediafire.com/cr0gbd7wluygpu-czSK-S_p-hKr2ZZkKH5sGfnqk4XSwZpJtN97uueeiz7d9HnH5u4sgJ4EBaT0YIfz7k1_BCDj2b3wJF47INn0DYQSdHtPrcH0YPtAKfBzJaA15epRbDBcwOyqFUe2DOZCBtWZgIXZj3GBKzjC_0WCy5-l5xN3N/cdfipp7c43wcq7r/Five.Nights.at.Freddys.2.v1.033.rar",
+        "mediafirelink": "https://www.mediafire.com/file/cdfipp7c43wcq7r/Five.Nights.at.Freddys.2.v1.033.rar/file",
+        "megalink": "",
+        "megadirectdownload": "",
+        "googlelink": "",
+        "googledirectdownload": "",
+        "browserinstallermode": "True"
     }
 ]
