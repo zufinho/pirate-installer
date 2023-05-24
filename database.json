@@ -128,5 +128,31 @@
         "googlelink": "",
         "googledirectdownload": "",
         "browserinstallermode": "True"
+    },
+    {
+        "id": 10,
+        "name": "Dont Starve",
+        "version": "",
+        "filesize": "1.97 GB",
+        "mediafiredownloadlink": "https://download1531.mediafire.com/37dnhursmw2gSUZxFRU-mVJpnLj5k3TCIFtUNDmB89cLoLqEfvZtyN3EzQNWPGYgCwdudqx7w5BymYgLGZ8NEBh6wGJ76nBqozdFiYFLttRxCB_0U6bsXYiguzVSNWBP95FYEOcukaHzq3F5eo_LCxdJZ5k8FxUKlihRvafYHCx37w/l5ljy31477aosd3/Dont.Starve.v379591.rar",
+        "mediafirelink": "https://www.mediafire.com/file/l5ljy31477aosd3/Dont.Starve.v379591.rar/file",
+        "megalink": "",
+        "megadirectdownload": "",
+        "googlelink": "",
+        "googledirectdownload": "",
+        "browserinstallermode": "True"
+    },
+    {
+        "id": 11,
+        "name": "Dont Starve Together",
+        "version": "",
+        "filesize": "2.11 GB",
+        "mediafiredownloadlink": "https://download1514.mediafire.com/14krkcsokdwg67fmMckVJJUsugNkyfRC45Kkg4lOupOpfxZCuxwJ5kiRFYBNvM4YqYrTe_w4KLZrOEirhQRSpifKyfSSaSSr10FtbpMm2BCvLMGQX8CRHXms0L_x83BT8ruXIEjPgu54_XXtHnh1yuRQorjuIUSagU8Ap5MiksoP3A/awzvvcc4w18s5z2/Dont.Starve.Together.v556225.rar",
+        "mediafirelink": "https://www.mediafire.com/file/awzvvcc4w18s5z2/Dont.Starve.Together.v556225.rar/file",
+        "megalink": "",
+        "megadirectdownload": "",
+        "googlelink": "",
+        "googledirectdownload": "",
+        "browserinstallermode": "True"
     }
 ]

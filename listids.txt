@@ -12,3 +12,5 @@ if you need help to find a game,click CTRL+F and type game name
 7-The Forest
 8-Five Nights At Freddy 1
 9-Five Nights At Freddy 2
+10-Dont Starve
+11-Dont Starve Together
