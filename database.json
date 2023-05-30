@@ -61,16 +61,16 @@
         "megalink": "",
         "megadirectdownload": "",
         "googlelink": "https://drive.google.com/uc?id=1EHesVYWpAMeI4EjTGKOibWMDXdUnZzEY&export=download",
-        "googledirectdownload": "https://doc-04-bo-docs.googleusercontent.com/docs/securesc/3hr6pbjc2630ktjflq5c30b6sth7n944/0goubnfvu2fu5rhb1qstnuip4mig58m1/1683654675000/05262238347141307173/18192836561031596111/1EHesVYWpAMeI4EjTGKOibWMDXdUnZzEY?e=download&ax=ADWCPKD7gyoE6YxKrGxxeSQmVEIttIrMODarWnPauSKb6TJQV0RrOvaY8DlWuRZK38IKyTY3l174rJG-kRpwEWCeacys1HRm_nCEIvQKhfxODZ2SFu6qteOdai-Q_Xtm_AkJzXn5BjYnQMZg1JAZzLzFY1P6Z607fX8UjkqjaZTVBbXhjKXvEVM_SJCIybEBKE5536bDvnsmjEvxHpmZMSNnIxb-Vpw92oPJfpfMNuFoz8tp_E-PKFupC9jO9MSD_o8ywP8Hsv_3cwLp0frB_spCU5HX-vKNtSgTNVlRL9KeYp3yfWsVVYoBbv_eBuj2f_mvPdaWyGN_rvPOcOVKe-KW7eFV3sfSClulFqBX0wuU0ePtgzYCqKudRYyAiKC_37I4Cwu8Vg8iCvJXzYGkUoyX0haZLh00xce8hkruqKJTVWyk42bz-VUKCL_8Vf04RzBwBDm63T-B3eFOb0oLPBuoMRWuzkvq_Sl2aJoexlFMVPwRuAyhK3mBRNb0U2KKcYYWdGIO6iw2mWZGukQ0jxP77ki_pHmYaSNOCIvSA7zWSFlwR8qWRcOpjTt3RnxNdj9KSjOcjQkUHQsG5EBy8zurWMMK3nMZ1DJ7gxgQnml6-Kq673JjqECyiulFt5NS4R3gO-bk3cQ1cTJIqdmct-EBd5c4-4Xd-oufP3LhwnzTK1QrmZ-T1pg8QxELzfcG3Oc7u_g5SuVAI8nExTHLHH-gakcBIlnQSv4rMAoD8bJFqHuvj2iex3_HL0s9vRvLwTYmdpAZih0FYutVebWzPwkfraiyU8PBc9oXGQjCvP7tjkBj_QQCfNayP-Q7e2uK3meGHLcxBxlljbwOCmbOw7Nwsi5vA0Xs8NZkV9FUIPvaRbzMICTlQAheaTCd0isCS9nQ7w&uuid=1029ba4c-2444-4e7c-8fa8-769d45eff0e9&authuser=0&nonce=qnqehm1c1jbd4&user=18192836561031596111&hash=pmalrmaqk9350t4a0q211tm14na9802j",
+        "googledirectdownload": "https://drive.google.com/uc?id=1EHesVYWpAMeI4EjTGKOibWMDXdUnZzEY&export=download",
         "browserinstallermode": "True"
     },
     {
         "id": 5,
-        "name": "Five Nights At Freddy 3",
+        "name": "Five Nights At Freddy's 3",
         "version": "",
         "filesize": "113.64 MB",
-        "mediafiredownloadlink": "https://download2262.mediafire.com/1bjsh67c453gcT2P2kKuDaw1RwvDLEYORzzxnVtDdw_KgCxQTsSxi7DXpNAsAHfzIs5FLupQ4M1j6pWuwue4ZtFRm955pj1-WS_GhzVc0bK4hepx5_X6XSzkA7YnFmUa9teaDao_Ob9XSb-nQiEv2it5omTTcTcUXdlJw9ikvBy-jA/n1i5zy422wxtfxt/Five+Nights+At+Freddy%5C%27s+3.zip",
-        "mediafirelink": "https://www.mediafire.com/file/n1i5zy422wxtfxt/Five_Nights_At_Freddy%2527s_3.zip/file",
+        "mediafiredownloadlink": "https://download857.mediafire.com/vdvvf5x9540guYupkuujQiPwJDVbCB5z91cunv8ovmRieQ6JlnwpYpxz_W9EjL8Nej3YOYm4X3dK-Vz5Jl1172Zq2JLLD1h1Y2tZN7bO1aqJCTcest8QcewEU0zGgKwQn8V3palB9mD-UMS_Cu1C6wMVSIUN7bRRAowCov0aRzCAHw/v321rxtli5qgg12/Five+Nights+at+Freddy%5C%27s+3.rar",
+        "mediafirelink": "https://www.mediafire.com/file/v321rxtli5qgg12/Five_Nights_at_Freddy%2527s_3.rar/file",
         "megalink": "",
         "megadirectdownload": "",
         "googlelink": "",
@@ -105,7 +105,7 @@
     },
     {
         "id": 8,
-        "name": "Five Nights At Freddy 1",
+        "name": "Five Nights At Freddy's 1",
         "version": "",
         "filesize": "224 MB",
         "mediafiredownloadlink": "https://download2390.mediafire.com/fq2ls12yo2xgEEZiuqjP8TYo2x4HbW7M3lZqBIGxlK8wTqP_mQ8eEkvot2xgAiXTZYGqm4nJ8YwkZStJv8BjKrPATD2K9mWVweQm1F2vjxXB2plMxtUR4hm3835ERTLATdfQXeg6Hazt5N_fZeeOeCqa9TEgnyr49VEGREEGNfG2xg/rrh6qf24acsylkc/Five.Nights.at.Freddys.v1.132.zip",
@@ -118,7 +118,7 @@
     },
     {
         "id": 9,
-        "name": "Five Nights At Freddy 2",
+        "name": "Five Nights At Freddy's 2",
         "version": "",
         "filesize": "210 MB",
         "mediafiredownloadlink": "https://download1582.mediafire.com/cr0gbd7wluygpu-czSK-S_p-hKr2ZZkKH5sGfnqk4XSwZpJtN97uueeiz7d9HnH5u4sgJ4EBaT0YIfz7k1_BCDj2b3wJF47INn0DYQSdHtPrcH0YPtAKfBzJaA15epRbDBcwOyqFUe2DOZCBtWZgIXZj3GBKzjC_0WCy5-l5xN3N/cdfipp7c43wcq7r/Five.Nights.at.Freddys.2.v1.033.rar",
@@ -153,6 +153,45 @@
         "megadirectdownload": "",
         "googlelink": "",
         "googledirectdownload": "",
+        "browserinstallermode": "True"
+    },
+    {
+        "id": 12,
+        "name": "Five Nights At Freddy's 4",
+        "version": "",
+        "filesize": "498 MB",
+        "mediafiredownloadlink": "https://download943.mediafire.com/xsg0f3g68wvgEGoR3U2gbZQFlMiDdlTS126Ti12HuE-fSkB5Hs66QDN7BIhhcRajF6ZktEjd-ILVJQLhkgPWlkV2T93MXBy-nnhpyb2oUG7kzlf9DSHQC6_PclfpnJtGl1I9TC79jWUsm_2s-TYogylBHEt5xO_wRIju7Qau_D1qHw/fai8lk74nynkmxw/FiveNightsatFreddys4.exe",
+        "mediafirelink": "https://www.mediafire.com/file/fai8lk74nynkmxw/FiveNightsatFreddys4.exe/file",
+        "megalink": "",
+        "megadirectdownload": "",
+        "googlelink": "",
+        "googledirectdownload": "",
+        "browserinstallermode": "True"
+    },
+    {
+        "id": 13,
+        "name": "Five Nights At Freddy's: Sister Location (Five Nights At Freddy's 5)",
+        "version": "",
+        "filesize": "901 MB",
+        "mediafiredownloadlink": "https://download1501.mediafire.com/lthlezak0eigN83KflMypXRKnB8Lx-YtXwNjnN-REFCZaYiXktDdXufchmFHFYC5kfKo2uj-VCQ66fK0T-HrrqwXu7HvFz-rxvmVxn_71kZJPM4TsimREOJn31vHZ-t3GDo-I9dnWPCbNkPBXlDYuxDPM41uir2Yrwc4PHWG9Lw5/ibsv5hwgbl4rzfv/Five.Nights.at.Freddys.Sister.Location.v1.121.zip",
+        "mediafirelink": "https://www.mediafire.com/file/ibsv5hwgbl4rzfv/Five.Nights.at.Freddys.Sister.Location.v1.121.zip/file",
+        "megalink": "",
+        "megadirectdownload": "",
+        "googlelink": "",
+        "googledirectdownload": "",
+        "browserinstallermode": "True"
+    },
+    {
+        "id": 14,
+        "name": "Fazbear Pizzeria Simulator (Five Nights At Freddy's 6)",
+        "version": "Needs Steam",
+        "filesize": "294 MB",
+        "mediafiredownloadlink": "steam://run/738060",
+        "mediafirelink": "steam://run/738060",
+        "megalink": "steam://run/738060",
+        "megadirectdownload": "steam://run/738060",
+        "googlelink": "steam://run/738060",
+        "googledirectdownload": "steam://run/738060",
         "browserinstallermode": "True"
     }
 ]

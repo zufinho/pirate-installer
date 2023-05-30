@@ -7,10 +7,13 @@ if you need help to find a game,click CTRL+F and type game name
 2-Grand Theft Auto III
 3-Grand Theft Auto San Andreas
 4-Subnautica v67383
-5-Five Nights At Freddy 3
+5-Five Nights At Freddy's 3
 6-Abzu
 7-The Forest
-8-Five Nights At Freddy 1
-9-Five Nights At Freddy 2
+8-Five Nights At Freddy's 1
+9-Five Nights At Freddy's 2
 10-Dont Starve
 11-Dont Starve Together
+12-Five Nights At Freddy's 4
+13-Five Nights At Freddy's: Sister Location (FNAF 5)
+14-Fazbear Pizzeria Simulator (FNAF 6)
