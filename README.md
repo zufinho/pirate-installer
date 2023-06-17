@@ -20,4 +20,5 @@ Dont Starve Together
 Five Nights At Freddy's 4
 Five Nights At Freddy's: Sister Location (FNAF 5)
 Fazbear Pizzeria Simulator (FNAF 6)
-(14 games in total)
+Hue
+(15 games in total)

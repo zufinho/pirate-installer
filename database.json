@@ -193,5 +193,18 @@
         "googlelink": "steam://run/738060",
         "googledirectdownload": "steam://run/738060",
         "browserinstallermode": "True"
+    },
+    {
+        "id": 15,
+        "name": "Hue",
+        "version": "",
+        "filesize": "103 MB",
+        "mediafiredownloadlink": "https://download1076.mediafire.com/ee8bf0t85dcgcAV6biXp8XCLUsrOHfs6CLKqIdjGDyhkrH8KwhqNlv4h3aeUQEO8zUX29FzYiOwjw3InDx8gxG5kq7A6smj-60Q-8rS8TPei0vIV1O_45j0uhH0le0NhIadcvwqbrkwwSwlsUPWibIjjJQQc-nwuI31V1kH6clkVYA/tzvt8hb0zh356pa/Hue.rar",
+        "mediafirelink": "https://www.mediafire.com/file/tzvt8hb0zh356pa/Hue.rar/file",
+        "megalink": "",
+        "megadirectdownload": "",
+        "googlelink": "",
+        "googledirectdownload": "",
+        "browserinstallermode": "True"
     }
 ]
