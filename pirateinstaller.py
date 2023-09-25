@@ -57,22 +57,22 @@ def install(id):
         browsermode=True
         if not gameinfo['mediafirelink'] == "":
             mediafire=True
-            print(Colorate.Horizontal(Colors.purple_to_blue,f"Mediafire: ✅",1))
+            print(Colorate.Horizontal(Colors.purple_to_blue,f"Mediafire: OK",1))
         else:
             mediafire=False
-            print(Colorate.Horizontal(Colors.purple_to_blue,f"Mediafire: ❌",1))
+            print(Colorate.Horizontal(Colors.purple_to_blue,f"Mediafire: NOT SUPPORTED",1))
         if not gameinfo['megalink'] == "":
             mega=True
-            print(Colorate.Horizontal(Colors.purple_to_blue,f"Mega: ✅",1))
+            print(Colorate.Horizontal(Colors.purple_to_blue,f"Mega: OK",1))
         else:
             mega=False
-            print(Colorate.Horizontal(Colors.purple_to_blue,f"Mega: ❌",1))
+            print(Colorate.Horizontal(Colors.purple_to_blue,f"Mega: NOT SUPPORTED",1))
         if not gameinfo['googlelink'] == "":
             google=True
-            print(Colorate.Horizontal(Colors.purple_to_blue,f"Google: ✅",1))
+            print(Colorate.Horizontal(Colors.purple_to_blue,f"Google: OK",1))
         else:
             google=False
-            print(Colorate.Horizontal(Colors.purple_to_blue,f"Google: ❌",1))
+            print(Colorate.Horizontal(Colors.purple_to_blue,f"Google: NOT SUPPORTED",1))
 
     print()
     print()

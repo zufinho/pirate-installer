@@ -2,14 +2,14 @@
 is a simple installer with a database construct in python
 <br>
 # How i use this?
-simple,you open the listids.txt , in this archive have all id's of all games in database, after you know the id of game you want install, open pirateinstaller.py and put the ID, appear the informations of game and if game is avaiable at Google,Mediafire or Mega, with a ✅ or ❌,after this choice how to install!
+simple,you open the listids.txt , in this archive have all id's of all games in database, after you know the id of game you want install, open pirateinstaller.py and put the ID, appear the informations of game and if game is avaiable at Google,Mediafire or Mega, with a OK or NOT SUPPORTED,after this choice how to install!
 <br>
 # Game List id's
 Terraria v1.4.4.9.v4<br>
 Need For Speed - Most Wanted<br>
 Grand Theft Auto III<br>
 Grand Theft Auto San Andreas<br>
-Subnautica v67383<br>
+Subnautica v67383 and v71668<br>
 Five Nights At Freddy's 3<br>
 Abzu<br>
 The Forest<br>
@@ -21,4 +21,5 @@ Five Nights At Freddy's 4<br>
 Five Nights At Freddy's: Sister Location (FNAF 5)<br>
 Fazbear Pizzeria Simulator (FNAF 6)<br>
 Hue<br>
-(15 games in total)
+Subnautica Below Zero<br>
+(16 games in total)
