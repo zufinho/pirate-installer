@@ -174,7 +174,37 @@
         "name": "Subnautica Below Zero",
         "version": "49550",
         "filesize": "5.14 GB",
-             "mediafirelink": "https://www.mediafire.com/file/226mqvsxr9r9bnl/Subnautica.Below.Zero.v24.05.2023.rar/file",
+        "mediafirelink": "https://www.mediafire.com/file/226mqvsxr9r9bnl/Subnautica.Below.Zero.v24.05.2023.rar/file",
+        "megalink": "",
+        "googlelink": "",
+        "browserinstallermode": "True"
+    },
+    {
+        "id": 18,
+        "name": "Birth",
+        "version": "",
+        "filesize": "366.64 MB",
+        "mediafirelink": "https://www.mediafire.com/file/h6vjygmjf4sjb25/Birth.v1.4.rar/file",
+        "megalink": "",
+        "googlelink": "",
+        "browserinstallermode": "True"
+    },
+    {
+        "id": 19,
+        "name": "Pizza Tower",
+        "version": "",
+        "filesize": "179 MB",
+        "mediafirelink": "https://www.mediafire.com/file/eofc36ozxf5obvp/Pizza.Tower.v1.0.311.rar/file",
+        "megalink": "",
+        "googlelink": "",
+        "browserinstallermode": "True"
+    },
+    {
+        "id": 20,
+        "name": "Stardew Valley",
+        "version": "",
+        "filesize": "439 MB",
+        "mediafirelink": "https://www.mediafire.com/file/32amt63xxbzbjqi/Stardew.Valley.v1.5.6H3.rar/file",
         "megalink": "",
         "googlelink": "",
         "browserinstallermode": "True"
