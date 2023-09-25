@@ -1,10 +1,14 @@
 import json
 import webbrowser
-from pystyle import Colorate,Colors
 from time import sleep
 from os import system
 import os
-import requests
+try:
+    from pystyle import Colorate,Colors
+    import requests
+except:
+    system("installrequeriments.bat")
+    system("echo start the program again")
 
 banner='''
 
