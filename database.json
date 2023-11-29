@@ -208,6 +208,25 @@
         "megalink": "",
         "googlelink": "",
         "browserinstallermode": "True"
+    },
+    {
+        "id": 21,
+        "name": "Factorio",
+        "version": "v1.1.98",
+        "filesize": "1.42 GB",
+        "mediafirelink": "https://www.mediafire.com/file/c9c182tt3zkuxet/Factorio.v1.1.98.rar/file",
+        "megalink": "",
+        "googlelink": "",
+        "browserinstallermode": "True"
+    },
+    {
+        "id": 22,
+        "name": "7 Days To Die",
+        "version": "Alpha 15.1.X86",
+        "filesize": "1.29 GB",
+        "mediafirelink": "https://www.mediafire.com/file/q5oq0euhzav3kbu/7.Days.To.Die.Alpha.15.1.X86.rar/file",
+        "megalink": "",
+        "googlelink": "",
+        "browserinstallermode": "True"
     }
-
 ]

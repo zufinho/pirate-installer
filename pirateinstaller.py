@@ -7,8 +7,9 @@ try:
     from pystyle import Colorate,Colors
     import requests
 except:
-    system("installrequeriments.bat")
-    system("echo start the program again")
+    system("pip install -r requeriments.txt")
+    system("start pirateinstaller.py")
+    exit()
 
 banner='''
 
