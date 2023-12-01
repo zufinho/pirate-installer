@@ -22,4 +22,10 @@ Five Nights At Freddy's: Sister Location (FNAF 5)<br>
 Fazbear Pizzeria Simulator (FNAF 6)<br>
 Hue<br>
 Subnautica Below Zero<br>
-(16 games in total)
+Birth<br>
+Pizza Tower<br>
+Stardew Valley<br>
+Factorio<br>
+7 Days to Die<br>
+Rimworld<br>
+(24 games in total)
