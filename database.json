@@ -228,5 +228,15 @@
         "megalink": "",
         "googlelink": "",
         "browserinstallermode": "True"
+    },
+    {
+        "id": 23,
+        "name": "Rimworld",
+        "version": "1.4.3901",
+        "filesize": "313.05 MB",
+        "mediafirelink": "https://www.mediafire.com/file/dbjvhm60vootx9r/RimWorld.v1.4.3901.rar/file",
+        "megalink": "",
+        "googlelink": "",
+        "browserinstallermode": "True"
     }
 ]
