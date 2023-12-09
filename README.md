@@ -28,4 +28,5 @@ Stardew Valley<br>
 Factorio<br>
 7 Days to Die<br>
 Rimworld<br>
-(24 games in total)
+People Playground<br>
+(25 games in total)
