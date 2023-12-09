@@ -238,5 +238,15 @@
         "megalink": "",
         "googlelink": "",
         "browserinstallermode": "True"
+    },
+    {
+        "id": 24,
+        "name": "People Playground",
+        "version": "1.27.3",
+        "filesize": "160 MB",
+        "mediafirelink": "https://www.mediafire.com/file/9m8pl18c6x22ttp/People.Playground.v1.27.3.rar/file",
+        "megalink": "",
+        "googlelink": "",
+        "browserinstallermode": "True"
     }
 ]
