@@ -248,5 +248,15 @@
         "megalink": "",
         "googlelink": "",
         "browserinstallermode": "True"
+    },
+    {
+        "id": 25,
+        "name": "Lethal Company",
+        "version": "v40",
+        "filesize": "306 MB",
+        "mediafirelink": "https://www.mediafire.com/file/z0ana5evhs27vqq/Lethal.Company.v40.rar/file",
+        "megalink": "",
+        "googlelink": "",
+        "browserinstallermode": "True"
     }
 ]
