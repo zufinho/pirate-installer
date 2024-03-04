@@ -258,5 +258,15 @@
         "megalink": "",
         "googlelink": "",
         "browserinstallermode": "True"
+    },
+    {
+        "id": 26,
+        "name": "Mechanica",
+        "version": "v1.2.3.2 - Multiplayer (online-fix.me)",
+        "filesize": "541.255 MB",
+        "mediafirelink": "https://www.mediafire.com/file/neuh65ewxg2pqce/Mechanica.v1.2.3.2.rar/file",
+        "megalink": "",
+        "googlelink": "",
+        "browserinstallermode": "True"   
     }
 ]
