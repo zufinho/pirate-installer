@@ -273,8 +273,18 @@
         "id": 27,
         "name": "No Oxygen Included",
         "version": "v596100",
-        "filesize": "",
+        "filesize": "1.09 GB",
         "mediafirelink": "https://www.mediafire.com/file/8po0nbgoqystqng/Oxygen+Not+Included+v596100.rar/file",
+        "megalink": "",
+        "googlelink": "",
+        "browserinstallermode": "True"   
+    },
+    {
+        "id": 28,
+        "name": "Project Zomboid",
+        "version": "Build 41.78.16",
+        "filesize": "2.39 GB",
+        "mediafirelink": "https://www.mediafire.com/file/icmy4ajbx67p0g7/Project.Zomboid.v41.78.16.rar/file",
         "megalink": "",
         "googlelink": "",
         "browserinstallermode": "True"   
