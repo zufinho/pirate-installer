@@ -19,7 +19,6 @@ Dont Starve<br>
 Dont Starve Together<br>
 Five Nights At Freddy's 4<br>
 Five Nights At Freddy's: Sister Location (FNAF 5)<br>
-Fazbear Pizzeria Simulator (FNAF 6)<br>
 Hue<br>
 Subnautica Below Zero<br>
 Birth<br>
@@ -31,4 +30,4 @@ Rimworld<br>
 People Playground<br>
 Lethal Company<br>
 Mechanica.v1.2.3.2 Multiplayer<br>
-(27 games in total)
+(26 games in total)

@@ -141,16 +141,6 @@
     },
     {
         "id": 14,
-        "name": "Fazbear Pizzeria Simulator (Five Nights At Freddy's 6)",
-        "version": "Needs Steam",
-        "filesize": "294 MB",
-        "mediafirelink": "steam://run/738060",
-        "megalink": "steam://run/738060",
-        "googlelink": "steam://run/738060",
-        "browserinstallermode": "True"
-    },
-    {
-        "id": 15,
         "name": "Hue",
         "version": "",
         "filesize": "103 MB",
@@ -160,7 +150,7 @@
         "browserinstallermode": "True"
     },
     {
-        "id": 16,
+        "id": 15,
         "name": "Subnautica",
         "version": "71668",
         "filesize": "3.32 GB",
@@ -170,7 +160,7 @@
         "browserinstallermode": "True"
     },
     {
-        "id": 17,
+        "id": 16,
         "name": "Subnautica Below Zero",
         "version": "49550",
         "filesize": "5.14 GB",
@@ -180,7 +170,7 @@
         "browserinstallermode": "True"
     },
     {
-        "id": 18,
+        "id": 17,
         "name": "Birth",
         "version": "",
         "filesize": "366.64 MB",
@@ -190,7 +180,7 @@
         "browserinstallermode": "True"
     },
     {
-        "id": 19,
+        "id": 18,
         "name": "Pizza Tower",
         "version": "",
         "filesize": "179 MB",
@@ -200,7 +190,7 @@
         "browserinstallermode": "True"
     },
     {
-        "id": 20,
+        "id": 19,
         "name": "Stardew Valley",
         "version": "",
         "filesize": "439 MB",
@@ -210,7 +200,7 @@
         "browserinstallermode": "True"
     },
     {
-        "id": 21,
+        "id": 20,
         "name": "Factorio",
         "version": "v1.1.98",
         "filesize": "1.42 GB",
@@ -220,7 +210,7 @@
         "browserinstallermode": "True"
     },
     {
-        "id": 22,
+        "id": 21,
         "name": "7 Days To Die",
         "version": "Alpha 15.1.X86",
         "filesize": "1.29 GB",
@@ -230,7 +220,7 @@
         "browserinstallermode": "True"
     },
     {
-        "id": 23,
+        "id": 22,
         "name": "Rimworld",
         "version": "v1.5.4048",
         "filesize": "330 MB",
@@ -240,7 +230,7 @@
         "browserinstallermode": "True"
     },
     {
-        "id": 24,
+        "id": 23,
         "name": "People Playground",
         "version": "1.27.3",
         "filesize": "160 MB",
@@ -250,7 +240,7 @@
         "browserinstallermode": "True"
     },
     {
-        "id": 25,
+        "id": 24,
         "name": "Lethal Company",
         "version": "v45 - MULTIPLAYER WORKING",
         "filesize": "353 MB",
@@ -260,7 +250,7 @@
         "browserinstallermode": "True"
     },
     {
-        "id": 26,
+        "id": 25,
         "name": "Mechanica",
         "version": "v1.2.3.2 - Multiplayer (online-fix.me)",
         "filesize": "541.255 MB",
@@ -270,7 +260,7 @@
         "browserinstallermode": "True"   
     },
     {
-        "id": 27,
+        "id": 26,
         "name": "No Oxygen Included",
         "version": "v596100",
         "filesize": "1.09 GB",
@@ -280,7 +270,7 @@
         "browserinstallermode": "True"   
     },
     {
-        "id": 28,
+        "id": 27,
         "name": "Project Zomboid",
         "version": "Build 41.78.16",
         "filesize": "2.39 GB",
