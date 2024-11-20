@@ -28,6 +28,6 @@ Factorio<br>
 7 Days to Die<br>
 Rimworld<br>
 People Playground<br>
-Lethal Company<br>
-Mechanica.v1.2.3.2 Multiplayer<br>
+Lethal Company v68<br>
+Mechanica.v1.1.9<br>
 (26 games in total)
