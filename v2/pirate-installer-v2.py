@@ -1,7 +1,6 @@
 #made and scripted by zufinho
 #v2 becomming better and more easier to find your games :)
 import json
-import webbrowser
 from os import system
 from os import name as osname
 from time import sleep
@@ -9,12 +8,7 @@ try:
     import requests
     from pystyle import Colorate, Colors
 except:
-    system('pip install -r requeriments.txt')
-def clear():
-    if osname=="nt":
-        system("cls")
-    else:
-        system("clear")
+    system('pip install requests pystyle')
 print('Verifing connection with network...')
 print()
 while True:
@@ -23,13 +17,71 @@ while True:
         break
     except:
         print("No connection with network, trying again...")
-clear()
+
+#verify updates
+version=open('src/version')
+version=version.read().strip()
+dbversion=open('src/dbversion','r')
+dbversion=dbversion.read().strip()
+gitversion = requests.get('https://raw.githubusercontent.com/zufinho/pirate-installer/refs/heads/main/v2/src/version').text.strip()
+gitdbversion = requests.get('https://raw.githubusercontent.com/zufinho/pirate-installer/refs/heads/main/v2/src/dbversion').text.strip()
+if version!=gitversion:
+    print('New client installer avaible, install? (y/n)')
+    cmd=input(">")
+    go=0
+    try:
+        cmd=str(cmd)
+        go=1
+    except:
+        print('Insert only letters')
+    if go==1:
+        if cmd.lower()=='y':
+            program=requests.get('https://raw.githubusercontent.com/zufinho/pirate-installer/refs/heads/main/v2/pirate-installer-v2.py').text
+            with open('pirate-installer-v2.py','w') as file:
+                file.write(program)
+            with open('src/version','w') as file:
+                file.write(gitversion)
+            print('Client updated!')
+            sleep(1)
+            if osname=='nt':
+                system('python pirate-installer-v2.py')
+            else:
+                system('python3 pirate-installer-v2.py')
+            del program
+            exit()
+if dbversion!=gitdbversion:
+    print('New games database update avaible, install? (y/n)')
+    cmd=input(">")
+    go=0
+    try:
+        cmd=str(cmd)
+        go=1
+    except:
+        print('Insert only letters')
+    if go==1:
+        if cmd.lower()=='y':
+            gitdb=requests.get('https://raw.githubusercontent.com/zufinho/pirate-installer/refs/heads/main/v2/src/games.json').text
+            with open('src/games.json','w') as file:
+                file.write(gitdb)
+            with open('src/dbversion','w') as file:
+                file.write(gitdbversion)
+            print('Games database updated!')
+            sleep(1)
+            del gitdb
+
+del gitdbversion, gitversion
+
 def printcolor(text,end="\n"):
     print(Colorate.Horizontal(Colors.blue_to_purple,text,1),end=end)
 def printerror(text):
     print(Colorate.Color(Colors.red,text,1))
 def printgreen(text):
     print(Colorate.Color(Colors.green,text,1))
+def clear():
+    if osname=="nt":
+        system("cls")
+    else:
+        system("clear")
 banner=r'''
  ______ _                         _                      _ _             
 (_____ (_)           _           (_)           _        | | |            
@@ -46,10 +98,6 @@ banner=r'''
 
 db=open('src/games.json','r')
 dbj=json.load(db)
-version=open('src/version')
-version=version.read()
-dbversion=open('src/dbversion','r')
-dbversion=dbversion.read()
 if osname=="nt":
     system('title Pirate Installer')
 
@@ -161,7 +209,7 @@ def main():
                 for gversion in game['game']['versions']:
                     gameversioncount+=1
                     gameversions.append(gversion)
-                    gameversionsprint.append(f"Version {gameversioncount}:\nVersion: {gversion['version']}\nDLC: {gversion['dlc']}\nLength: {gversion['gamelength']}\nAdded to program in: {gversion['dateadded']}")
+                    gameversionsprint.append(f"Version {gameversioncount}:\nVersion: {gversion['version']}\nDLC: {gversion['dlc']}\nLength: {gversion['gamelength']}\nAdded to client in: {gversion['dateadded']}")
                 while True:
                     clear()
                     printinitial()
@@ -196,7 +244,7 @@ def main():
 Version: {gameversion['version']}
 DLC: {gameversion['dlc']}
 Length: {gameversion['gamelength']}
-Date Added to program: {gameversion['dateadded']}
+Date Added to client: {gameversion['dateadded']}
 Link to Download: {gameversion['downloadlink']}
 '''
                                 printcolor(txt)
