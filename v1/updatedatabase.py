@@ -1,9 +1,9 @@
 import requests
 from time import sleep
-verifyversionatgithub= requests.get("https://raw.githubusercontent.com/zufinho/pirate-installer/main/databaseversion.txt")
-getdatabase=requests.get("https://raw.githubusercontent.com/zufinho/pirate-installer/main/database.json")
-getlistid=requests.get("https://raw.githubusercontent.com/zufinho/pirate-installer/main/listids.txt")
-getpirateinstaller=requests.get("https://raw.githubusercontent.com/zufinho/pirate-installer/main/pirateinstaller.py")
+verifyversionatgithub= requests.get("https://raw.githubusercontent.com/zufinho/pirate-installer/refs/heads/main/v1/databaseversion.txt")
+getdatabase=requests.get("https://raw.githubusercontent.com/zufinho/pirate-installer/refs/heads/main/v1/database.json")
+getlistid=requests.get("https://raw.githubusercontent.com/zufinho/pirate-installer/refs/heads/main/v1/listids.txt")
+getpirateinstaller=requests.get("https://raw.githubusercontent.com/zufinho/pirate-installer/refs/heads/main/v1/pirateinstaller.py")
 with open("database.json","w") as databaseupd:
         databaseupd.write(getdatabase.text)
 with open("databaseversion.txt","w") as versionupd:
