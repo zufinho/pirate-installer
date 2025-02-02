@@ -9,7 +9,6 @@ import json
 scraper = cloudscraper.create_scraper()
 headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'}
 def check(url,gameid,gamename):
-    scraper = cloudscraper.create_scraper()
     site=scraper.get(url,headers=headers,allow_redirects=True)
     if site.status_code==429:
         print(f'{gameid}:{gamename} | Too many requests')

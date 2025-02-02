@@ -1,0 +1,17 @@
+[
+    {
+        "id": 0,
+        "gamename": "Terraria",
+        "game": {
+            "versions": [
+                {
+                    "version": "v1.4.4.9.v4",
+                    "downloadlink": "https://www.mediafire.com/file/z537rywpsprfgba/",
+                    "dlc": "False",
+                    "gamelength": "503.71 MB",
+                    "dateadded": "30/01/2025"
+                }
+            ]
+        }
+    }
+]
