@@ -1,14 +1,19 @@
 #made and scripted by zufinho
 #v2 becomming better and more easier to find your games :)
 import json
-from os import system
-from os import name as osname
+from os import system, name as osname
 from time import sleep
 try:
     import requests
     from pystyle import Colorate, Colors
 except:
+    print('Installing dependencies...')
+    print()
     system('pip install requests pystyle')
+finally:
+    import requests
+    from pystyle import Colorate, Colors
+system('cls') if osname == 'nt' else system('clear')
 print('Verifing connection with network...')
 print()
 while True:
@@ -125,12 +130,12 @@ def searchgame(name):
         found=0
         founds=[]
         for game in dbj:
-            printcolor(f'{found} Games Found', end="\r")
             a=str(game['gamename']).lower()
             a=a.find(name)
             if a==0 or a>0:
-                found=found+1
+                found+=1
                 founds.append(game['id'])
+            printcolor(f'{found} Games Found', end="\r")
         print("\n")
         if found>0:
             for game in founds:
@@ -148,29 +153,21 @@ def searchgame(name):
         input('Press any key to continue')
 
 def getgame(id):
-    go=0
-    try:
-        id=int(id)
-        go=1
-    except:
-        printerror('Please insert only numbers')
-        sleep(3)
-    if go==1:
-        found=0
-        printcolor('Searching for game id...')
-        for game in dbj:
-            if game['id']==id:
-                found=1
-                gamejson=game
-                printgreen('Game Found!\n')
-                break
-        if found==1:
-            sleep(1.5)
-            return gamejson
-        else:
-            printerror('Game not found!\n')
-            sleep(1.5)
-            return False
+    found=0
+    printcolor('Searching for game id...')
+    for game in dbj:
+        if game['id']==id:
+            found=1
+            gamejson=game
+            printgreen('Game Found!\n')
+            break
+    if found==1:
+        sleep(1.5)
+        return gamejson
+    else:
+        printerror('Game not found!\n')
+        sleep(1.5)
+        return False
 
 def getversions(gamejson,versionn):
     versions=gamejson['game']['versions']
@@ -192,76 +189,85 @@ def main():
         clear()
         printinitial()
         printcolor('[1] Get game           [2] List of games           [3] Search game')
-        printcolor("[99] Exit")
+        printcolor("[98] Help              [99] Exit")
         cmd=input(">")
         if cmd=="1":
             printcolor('Insert game ID')
             cmd=input(">")
             clear()
             printinitial()
-            game=getgame(cmd)
-            if game==False:
-                print()
-            else:
-                gameversioncount=0
-                gameversions=[]
-                gameversionsprint=[]
-                for gversion in game['game']['versions']:
-                    gameversioncount+=1
-                    gameversions.append(gversion)
-                    gameversionsprint.append(f"Version {gameversioncount}:\nVersion: {gversion['version']}\nDLC: {gversion['dlc']}\nLength: {gversion['gamelength']}\nAdded to client in: {gversion['dateadded']}")
-                while True:
-                    clear()
-                    printinitial()
-                    printcolor(F'Game: {game['gamename']}')
-                    printcolor(f'{gameversioncount} Versions:')
-                    print()
-                    for g in gameversionsprint:
-                        printcolor(g)
+            go=0
+            try:
+                cmd=int(cmd)
+                go=1
+            except:
+                go=0
+                printerror('Insert only numbers!')
+                sleep(3)
+            if go==1:
+                    game=getgame(cmd)
+                    if game==False:
                         print()
-                    print()
-                    printcolor('[1] Select Version and install      [99] Back')
-                    cmd=input(">")
-                    if cmd=="1":
-                        printcolor('Select your version:')
-                        cmd=input(">")
-                        go=0
-                        try:
-                            cmd=int(cmd)
-                            go=1
-                        except:
-                            printerror('Insert only numbers!')
-                            sleep(1.5)
-                        if go==1:
-                            if cmd<=0 or cmd>gameversioncount:
-                                printerror('Insert a valid version!')
-                                sleep(1.5)
-                            else:
-                                gameversion=getversions(game,cmd-1)
-                                clear()
-                                printinitial()
-                                txt=f'''Game: {game['gamename']}
-Version: {gameversion['version']}
-DLC: {gameversion['dlc']}
-Length: {gameversion['gamelength']}
-Date Added to client: {gameversion['dateadded']}
-Link to Download: {gameversion['downloadlink']}
-'''
-                                printcolor(txt)
-                                input('Press any key to continue...')
+                    else:
+                        gameversioncount=0
+                        gameversions=[]
+                        gameversionsprint=[]
+                        for gversion in game['game']['versions']:
+                            gameversioncount+=1
+                            gameversions.append(gversion)
+                            gameversionsprint.append(f"Version {gameversioncount}:\nVersion: {gversion['version']}\nDLC: {gversion['dlc']}\nLength: {gversion['gamelength']}\nAdded to client in: {gversion['dateadded']}")
+                        while True:
+                            clear()
+                            printinitial()
+                            printcolor(F'Game: {game['gamename']}')
+                            printcolor(f'{gameversioncount} Versions:')
+                            print()
+                            for g in gameversionsprint:
+                                printcolor(g)
+                                print()
+                            print()
+                            printcolor('[1] Select Version and install      [99] Back')
+                            cmd=input(">")
+                            if cmd=="1":
+                                printcolor('Select your version:')
+                                cmd=input(">")
+                                go=0
+                                try:
+                                    cmd=int(cmd)
+                                    go=1
+                                except:
+                                    printerror('Insert only numbers!')
+                                    sleep(1.5)
+                                if go==1:
+                                    if cmd<=0 or cmd>gameversioncount:
+                                        printerror('Insert a valid version!')
+                                        sleep(1.5)
+                                    else:
+                                        gameversion=getversions(game,cmd-1)
+                                        clear()
+                                        printinitial()
+                                        txt=f'''Game: {game['gamename']}
+        Version: {gameversion['version']}
+        DLC: {gameversion['dlc']}
+        Length: {gameversion['gamelength']}
+        Date Added to client: {gameversion['dateadded']}
+        Link to Download: {gameversion['downloadlink']}
+        '''
+                                        printcolor(txt)
+                                        input('Press any key to continue...')
+                                        break
+                            elif cmd=="99":
+                                cmd=None
                                 break
-                    elif cmd=="99":
-                        cmd=None
-                        break
 
-        if cmd=="2":
+        elif cmd=="2":
             clear()
             printinitial()
             printcolor("ID: GAMENAME")
             listofgames()
             print()
             input("Press any key to continue...")
-        if cmd=="3":
+        elif cmd=="3":
             clear()
             printinitial()
             printcolor("Insert game name to search:")
@@ -269,9 +275,24 @@ Link to Download: {gameversion['downloadlink']}
             clear()
             printinitial()
             searchgame(cmd)
-        if cmd=="99":
+        
+        elif cmd=='98':
+            clear()
+            printinitial()
+            printcolor("What's is this program?")
+            printcolor('This program is a client to download games, having a "database" with games and their download links, ALL THE GAMES IS TESTED!')
+            print()
+            printcolor("How it's work?")
+            printcolor("It's works with IDs, every game have an ID, you can see at searching by game name or in list of games, to get a link of download from any game u need the game id.")
+            print()
+            printcolor("I can use other database?")
+            printcolor("Yes! u can use other database created by you or other people, but caution to no get malwares!")
+            printcolor('U can view how the database is created in src/basegames.json')
+            print()
+            input('Press any key to continue')
+        elif cmd=="99":
             clear()
             db.close()
-            exit(1)
+            exit(0)
 if __name__ == "__main__":
     main()

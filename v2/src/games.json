@@ -119,7 +119,7 @@
                     "version": "596100",
                     "downloadlink": "https://www.mediafire.com/file/8po0nbgoqystqng/",
                     "dlc": "True",
-                    "gamelength": "2,85 GB",
+                    "gamelength": "2.85 GB",
                     "dateadded": "30/01/2025"
                 },
                 {
@@ -128,6 +128,192 @@
                     "dlc": "True",
                     "gamelength": "3.00 GB",
                     "dateadded": "30/01/2025"
+                }
+            ]
+        }
+    },
+    {
+        "id": 7,
+        "gamename": "Lethal Company",
+        "game": {
+            "versions": [
+                {
+                    "version": "67",
+                    "downloadlink": "https://www.mediafire.com/file/7ju8vfl12ec2pk8/",
+                    "dlc": "False",
+                    "gamelength": "1.06 GB",
+                    "dateadded": "08/02/2025"
+                },
+                {
+                    "version": "69",
+                    "downloadlink": "https://www.mediafire.com/file/60sjq3ez1rhx3r7/",
+                    "dlc": "False",
+                    "gamelength": "1.12 GB",
+                    "dateadded": "08/02/2025"
+                }
+            ]
+        }
+    },
+    {
+        "id": 8,
+        "gamename": "Stardew Valley",
+        "game": {
+            "versions": [
+                {
+                    "version": "1.6.15",
+                    "downloadlink": "https://www.mediafire.com/file/aicc79wfe5kr0n7/",
+                    "dlc": "False",
+                    "gamelength": "894 MB",
+                    "dateadded": "08/02/2025"
+                }
+            ]
+        }
+    },
+    {
+        "id": 9,
+        "gamename": "Hollow Knight",
+        "game": {
+            "versions": [
+                {
+                    "version": "1.5.78.11833",
+                    "downloadlink": "https://www.mediafire.com/file/fc3nwcyr1xuwtxg/",
+                    "dlc": "False",
+                    "gamelength": "7.5 GB",
+                    "dateadded": "08/02/2025"
+                }
+            ]
+        }
+    },
+    {
+        "id": 10,
+        "gamename": "Cuphead",
+        "game": {
+            "versions": [
+                {
+                    "version": "1.3.4",
+                    "downloadlink": "https://www.mediafire.com/file/0gigdv8zvqglq3v/",
+                    "dlc": "True",
+                    "gamelength": "5.44 GB",
+                    "dateadded": "08/02/2025"
+                }
+            ]
+        }
+    },
+    {
+        "id": 11,
+        "gamename": "Ultrakill",
+        "game": {
+            "versions": [
+                {
+                    "version": "Build 14344626",
+                    "downloadlink": "https://www.mediafire.com/file/fqlu0uxadmwyns9/",
+                    "dlc": "False",
+                    "gamelength": "1.86 GB",
+                    "dateadded": "08/02/2025"
+                }
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "gamename": "Devil May Cry 3 Special Edition",
+        "game": {
+            "versions": [
+                {
+                    "version": "1.3.0",
+                    "downloadlink": "https://www.mediafire.com/file/ysg2rgnvnj2uwws/",
+                    "dlc": "False",
+                    "gamelength": "4.57 GB",
+                    "dateadded": "08/02/2025"
+                }
+            ]
+        }
+    },
+    {
+        "id": 13,
+        "gamename": "DmC: Devil May Cry",
+        "game": {
+            "versions": [
+                {
+                    "version": "Windows Defender detects a virus but is secure",
+                    "downloadlink": "https://www.mediafire.com/file/yhx4mxu67ka3qmc/",
+                    "dlc": "False",
+                    "gamelength": "10.7 GB",
+                    "dateadded": "08/02/2025"
+                }
+            ]
+        }
+    },
+    {
+        "id": 14,
+        "gamename": "ASTRONEER",
+        "game": {
+            "versions": [
+                {
+                    "version": "1.32.19.0",
+                    "downloadlink": "https://www.mediafire.com/file/kgz6sqy60o5cfo5/",
+                    "dlc": "True",
+                    "gamelength": "2.91 GB",
+                    "dateadded": "08/02/2025"
+                },
+                {
+                    "version": "1.32.19.0 - ONLINE-FIX",
+                    "downloadlink": "https://www.mediafire.com/file/18oiq6b4oowzdyo/",
+                    "dlc": "True",
+                    "gamelength": "2.93 GB",
+                    "dateadded": "08/02/2025"
+                }
+            ]
+        }
+    },
+    {
+        "id": 15,
+        "gamename": "DREDGE",
+        "game": {
+            "versions": [
+                {
+                    "version": "1.5.3",
+                    "downloadlink": "https://www.mediafire.com/file/r6tlbqprxsjg6fa/",
+                    "dlc": "True",
+                    "gamelength": "759 MB",
+                    "dateadded": "08/02/2025"
+                }
+            ]
+        }
+    },
+    {
+        "id": 16,
+        "gamename": "Project Zomboid",
+        "game": {
+            "versions": [
+                {
+                    "version": "41.78.16",
+                    "downloadlink": "https://www.mediafire.com/file/icmy4ajbx67p0g7/",
+                    "dlc": "False",
+                    "gamelength": "6.96 GB",
+                    "dateadded": "08/02/2025"
+                },
+                {
+                    "version": "42.2.0",
+                    "downloadlink": "https://www.mediafire.com/file/3600on9cy0xhfj9/",
+                    "dlc": "False",
+                    "gamelength": "10.3 GB",
+                    "dateadded": "08/02/2025"
+                }
+            ]
+        }
+    },
+    {
+        "id": 17,
+        "gamename": "JoJo's Bizarre Adventure: All-Star Battle R",
+        "game": {
+            "versions": [
+                {
+                    "version": "2.2.3",
+                    "downloadlink": "https://www.mediafire.com/file/ihq585ghbf9o71c/",
+                    "dlc": "False",
+                    "gamelength": "5.07 GB",
+                    "dateadded": "08/02/2025"
                 }
             ]
         }

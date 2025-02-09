@@ -1,3 +1,5 @@
+# THIS VERSION IS OUTDATED, PREFER USING V2
+
 # What is pirate installer?
 is a simple installer with a database construct in python
 <br>
